@@ -1,0 +1,145 @@
+.cart-central{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 150px 82px 5px 82px; 
+    column-gap: 0px;
+    row-gap: 0px;
+
+}
+
+.diverse-selection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 170px;
+}
+.cart-central h3{
+    color: #2F2F2F;
+    font-family: 'PolySans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.cart-central p{
+    color: #696969;
+    font-family: 'Clash Grotesk';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    width: 254px;
+}
+.cart-centre{
+    display: flex;
+    justify-content: center;
+}
+
+.cart-centre img{
+    width: 650px;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.free-shopping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+
+}
+
+.right-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    margin-left: -60px;
+    width: 50px;
+    
+}
+@media screen and (max-width:768px) {
+    .cart-central{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px; 
+        column-gap: 0px;
+        row-gap: 0px;
+    
+    }
+    .diverse-selection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .left-cart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin-top: -100px;
+    }
+    .cart-central h3{
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    .cart-central p{
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        width: 100%;
+        padding: 0 3px;
+    }
+    .cart-centre{
+        padding: 20px 0;
+    }
+    
+    .cart-centre img{
+        width: 350px;
+        height: 350px;
+        flex-shrink: 0;
+    }
+    
+    .free-shopping{
+        padding-left: 0px;
+        gap: 10px;
+    
+    }
+    
+    .right-cart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .payment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+        margin-left: 0px;
+        gap: 10px;
+        width: 100%;
+        padding-bottom: 20px;
+        
+    }
+    
+}

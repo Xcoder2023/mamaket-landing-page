@@ -1,0 +1,100 @@
+.flags-vessel {
+  display: flex;
+  flex-direction: column;
+  background: #f6f6f6;
+  gap: 20px;
+}
+
+.culture {
+  color: #2f2f2f;
+  font-family: "Syne";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 30px 0px 30px 82px;
+}
+.flags,
+.flag {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-shrink: 0;
+}
+
+.flags-btn img,
+.flag-btn img {
+  width: 50px;
+  height: 30px;
+}
+
+.flags-btn,
+.flag-btn {
+  animation: identifier 2s linear infinite;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: #fcfcfc;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.08),
+    4px 3px 12px 0px rgba(0, 0, 0, 0.08), 17px 13px 21px 0px rgba(0, 0, 0, 0.07),
+    38px 28px 28px 0px rgba(0, 0, 0, 0.04),
+    68px 50px 34px 0px rgba(0, 0, 0, 0.01), 106px 78px 37px 0px rgba(0, 0, 0, 0);
+}
+
+@keyframes identifier {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .culture {
+    font-size: 30px;
+    font-weight: 200;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .flags,
+  .flag {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .flags-btn,
+.flag-btn {
+  animation: identifier 1s linear infinite;
+}
+
+  .flags-btn img,
+  .flag-btn img {
+    width: 25px;
+    height: 15px;
+  }
+
+  .flags-btn,
+  .flag-btn {
+    padding: 15px;
+    gap: 10px;
+    width: 130px;
+    border-radius: 50px;
+  }
+
+
+  @keyframes identifier {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}

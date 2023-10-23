@@ -1,0 +1,194 @@
+.vessel {
+  background: url(../assets/mamket-header-img/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 98rem;
+  padding: 100px 120px;
+  margin-bottom: 10rem;
+}
+.harmbuger{
+  display: none;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.brave-print {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 100px 0px;
+}
+.african,
+.USA {
+  color: #fff;
+  text-align: center;
+  font-family: "PolySans";
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.USA {
+  position: relative;
+  bottom: 35px;
+  left: 10px;
+}
+.african {
+  padding-right: 75px;
+}
+.mamaket-btn2 {
+  display: inline-flex;
+  padding: 32px 64px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  border-radius: 30100px;
+  background: #fff;
+}
+.small-print {
+  color: #fff;
+  text-align: center;
+  font-family: "PolySans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.green-div {
+  background-color: #208573;
+  height: 460px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.goods img {
+  position: relative;
+  right: 15px;
+  bottom: 400px;
+  width: 1200px;
+  height: 1400px;
+  flex-shrink: 0;
+  margin-bottom: -1100px;
+}
+.start{
+    color: #2F2F2F;
+    font-family: Syne;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    width: 65rem;
+    padding-left: 7rem;
+}
+
+@media screen and (max-width:768px) {
+
+  .vessel{
+    padding: 20px 0px;
+    height: 49rem;
+  }
+ 
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 15px;
+    gap: 0px;
+  }
+
+  .harmbuger{
+    display: block;
+  }
+
+  .bar {
+    display: flex;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
+
+  .USA {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+  }
+  .african {
+    padding-right: 0px;
+  } 
+
+  .usa-africa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .african,
+.USA {
+  color: #fff;
+  text-align: center;
+  font-family: "PolySans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 30;
+  line-height: normal;
+}
+
+.mamaket-btn2 {
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 30px;
+ 
+}
+
+.small-print {
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.green-div {
+  background-color: #208573;
+  height: 230px;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.goods img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 0px;
+  left: 5px;
+  margin-left: -5px;
+  bottom: 200px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: -430px;
+}
+
+  .start{
+    font-size: 20px;
+    font-weight: 350;
+    width: 100%;
+    padding-left: 0rem;
+}
+
+   
+}

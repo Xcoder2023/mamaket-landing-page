@@ -1,0 +1,85 @@
+.card-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 82px;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.wider {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07),
+    0px 18px 40px 0px rgba(0, 0, 0, 0.07), 0px 72px 72px 0px rgba(0, 0, 0, 0.06),
+    0px 162px 97px 0px rgba(0, 0, 0, 0.04),
+    0px 289px 115px 0px rgba(0, 0, 0, 0.01),
+    0px 451px 126px 0px rgba(0, 0, 0, 0);
+  padding: 64px 32px;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+}
+.wide {
+  width: 500px;
+  border-radius: 14px;
+  border: 2px solid #208573;
+  background: #fff;
+}
+.questions {
+  color: var(--black-800, #212121);
+  font-family: 'Syne';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  width: 397px;
+  margin-left: -100px;
+}
+
+@media screen and (max-width:768px) {
+  .qestions{
+    display: flex;
+    font-size: 0px;
+    font-weight: 0;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    margin-left: 0px;
+  }
+
+  .all{
+    padding: 0px;
+  }
+
+  .card-form{
+    padding: 0px;
+  }
+  .wide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+
+  }
+
+  .wider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+  }
+
+  .functionality{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+}
