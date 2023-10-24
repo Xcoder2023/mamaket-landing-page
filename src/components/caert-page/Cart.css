@@ -79,6 +79,7 @@
         padding: 0px 0px 0px 0px; 
         column-gap: 0px;
         row-gap: 0px;
+        padding: 0 20px;
     
     }
     .diverse-selection{
@@ -97,7 +98,7 @@
     }
     .cart-central h3{
         font-size: 20px;
-        font-weight: 100;
+        font-weight: 700;
         text-align: center;
     }
     
@@ -120,7 +121,7 @@
     
     .free-shopping{
         padding-left: 0px;
-        gap: 10px;
+        gap: 20px;
     
     }
     
