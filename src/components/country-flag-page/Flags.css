@@ -4,6 +4,13 @@
   background: #f6f6f6;
   gap: 20px;
 }
+.flags-control{
+  display: flex;
+  gap: 20px;
+ padding-bottom: 20px;
+ width: 100%;
+ overflow: hidden;
+}
 
 .culture {
   color: #2f2f2f;
@@ -17,7 +24,7 @@
 .flags,
 .flag {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 40px;
   flex-shrink: 0;
 }
@@ -30,7 +37,7 @@
 
 .flags-btn,
 .flag-btn {
-  animation: identifier 2s linear infinite;
+  animation: identifier 5s linear infinite;
   display: flex;
   padding: 20px;
   align-items: center;
@@ -48,7 +55,7 @@
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(calc(-200px*7));
   }
 }
 
@@ -59,21 +66,6 @@
     padding: 0px;
     text-align: center;
   }
-
-  .flags,
-  .flag {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    gap: 10px;
-    flex-shrink: 0;
-  }
-
-  .flags-btn,
-.flag-btn {
-  animation: identifier 1s linear infinite;
-}
-
   .flags-btn img,
   .flag-btn img {
     width: 25px;
@@ -84,17 +76,6 @@
   .flag-btn {
     padding: 15px;
     gap: 10px;
-    width: 130px;
     border-radius: 50px;
-  }
-
-
-  @keyframes identifier {
-    0% {
-      transform: translateX(50%);
-    }
-    100% {
-      transform: translateX(0);
-    }
   }
 }

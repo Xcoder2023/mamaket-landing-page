@@ -68,6 +68,7 @@ const Flags = () => {
         <div className="culture">
           <p>Culture</p>
         </div>
+        <div className="flags-control">
         <div className="flags">
           {links.map(({ ids, link, image }) => (
             <div key={ids} className="flags-btn">
@@ -85,6 +86,7 @@ const Flags = () => {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </div>
